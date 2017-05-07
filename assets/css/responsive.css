@@ -1,0 +1,227 @@
+/* =================================== */
+/* Responsive */
+/* =================================== */
+@media (min-width:993px) and (max-width:1199px) {
+	.about-content .basic-info {
+		padding-top: 40px;
+	}
+	.about-content .skills-info {
+		padding-top: 40px;
+	}
+}
+@media (min-width:768px) and (max-width:992px) {
+	.intro-section{
+		height:600px;
+	}
+	
+	.intro-main .intro-text {
+		margin: 0 auto;
+	}
+	.service-content .single-service:nth-child(1), 
+	.service-content .single-service:nth-child(2) {
+		margin-bottom:40px;
+	}
+	.contact-detail {
+		padding-top: 60px;
+	}
+	.single-contact-detail:nth-child(3),
+	.single-contact-detail:nth-child(4) {
+		margin-bottom:0px;
+	}
+	.author-addres{
+		font-size: 26px;
+	}
+
+}
+
+@media (min-width:640px) and (max-width:767px) {
+	.intro-section{
+		height:500px;
+	}
+	.person-name{
+		font-size: 22px;
+	}
+	.intro-main .intro-text .person-name{
+		margin-bottom: 5px;
+	}
+	.intro-main .intro-text .job-title{
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.intro-main .intro-text {
+		width: 70%;
+		margin:0 auto;
+	}
+	.author-addres{
+		text-align: center;
+		font-size: 22px;
+		
+	}
+	.footer .fooler-social-icon{
+		text-align: center;
+	}
+
+}
+@media (min-width:480px) and (max-width:639px) {
+	.intro-section{
+		height:500px;
+	}
+	.intro-main .intro-text {
+		width: 80%;
+		margin:0 auto;
+	}
+	.author-addres {
+    text-align: center;
+    font-size: 16px;
+	}
+	.person-name{
+		font-size: 22px;
+	}
+	.intro-main .intro-text .job-title{
+		font-size: 16px;
+	}
+
+}
+@media (max-width:480px) {
+	.intro-section{
+		height:400px;
+	}
+	.intro-main .intro-text {
+		width: 90%;
+		margin:0 auto;
+	}
+	.nav-bar-area .navbar-brand {
+		display:none;
+	}
+	.author-addres {
+    text-align: center;
+    font-size: 16px;
+	}
+	.person-name{
+		font-size: 20px;
+	}
+	.intro-main .intro-text .job-title{
+		font-size: 12px;
+	}
+	.intro-main .intro-text .person-name{
+		margin-bottom: 5px;
+	}
+	.intro-main .intro-text .job-title{
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+}
+@media (max-width:639px) {
+	.project-item {
+		width: 100%;
+	}
+	.filter-list li{
+		float:none;
+		margin:10px 0px;
+	}
+	.single-contact-detail {
+		margin-bottom: 40px;
+	}
+}
+
+
+@media (max-width:992px){
+	html, body {
+		height: auto;
+	}
+	.intro-main{
+		top:60%;
+		transform:translate3d(0px, -60%, 0px);
+		-moz-transform:translate3d(0px, -60%, 0px);
+		-webkit-transform:translate3d(0px, -60%, 0px);
+	}
+	.about-content .skills-info {
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+	.quoute-content .quoute-link{
+		float:left;
+		margin-top:3px;
+	}
+	.single-contact-detail {
+		text-align:center;
+	}
+	.single-contact-detail .header {
+		display:inline-block;
+	}
+	.single-contact-detail .header i {
+	}
+	.single-contact-detail .header h5 {
+		float:left;
+	}
+}
+@media (max-width:767px){
+	.nav-bar-area #bs-example-navbar-collapse-1{
+		background:rgba(0,0,0,.9);
+		transition:.1s;
+	}
+	.nav-bar-area.fixed-top #bs-example-navbar-collapse-1{
+		background:#fff;;
+	}
+	.nav-bar-area .navbar-brand {
+		pointer-events: none;
+		opacity: 0;
+		transition:.3s;
+	}
+	.nav-bar-area.fixed-top .navbar-brand {
+		pointer-events: auto;
+		opacity: 1;
+	}
+	.nav-bar-area {
+		padding: 20px 0px;
+	}
+	.single-service{
+		margin-bottom:40px;
+	}
+	.single-service:last-child{
+		margin-bottom:0px;
+	}
+	.single-contact-detail:last-child {
+		margin-bottom: 0px;
+	}
+}
+@media (min-width:640px) and (max-width:992px) {
+	.project-item {
+		width: 50%;
+	}
+}
+@media (max-width:640px) {
+	.testimonial-item .test-nav.left {
+		left: 0;
+	}
+	.testimonial-item .test-nav.right {
+		right: 0;
+	}
+	.footer .fooler-social-icon{
+		text-align: center;
+	}
+	.footer .fooler-social-icon li{
+		text-align: center;
+		margin-left: unset;
+	}
+	.right-col{
+		text-align: center;
+	}
+	.quoute-content .quoute-link{
+	padding: 8px 18px;
+	float: unset;
+}
+	.quoute-content-text{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	}
+	.post-btn{
+		margin: 0 auto;
+		display: block !important;
+	}
+	#form-messages{
+		margin-bottom: 40px;
+	}
+
+}

@@ -1,0 +1,59 @@
+a,a:hover,a:focus{
+	color:#EF476F;
+}
+.color-highlight{
+	color:#EF476F;
+}
+.page-header .border-bottom{
+	border:1px solid #EF476F;
+}
+.page-header .border-bottom:before,
+.page-header .border-bottom:after{
+	background:#EF476F;
+}
+.preload-effect-css div:nth-of-type(2) {
+  border-color: #EF476F;
+}
+.nav-bar-area .navbar-brand h1{
+	color:#EF476F;
+}
+.nav-bar-area .navbar-nav.nav li.current a{
+	color:#EF476F;
+}
+.nav-bar-area.fixed-top .navbar-nav.nav > li > a {
+    color:#EF476F;
+}
+
+.about-content .basic-info .info-list li i{
+	color: #EF476F;
+}
+.about-content .skills-info .single-bar .progress{
+	border:1px solid #EF476F;
+}
+.about-content .skills-info .single-bar .progress .progress-bar{
+	background:#EF476F;
+}
+.service-content .single-service i{
+	color:#EF476F;
+}
+.testimonial-content .test-icon{
+	color:#EF476F;
+}
+.single-testimonial .test-author-info .test-author-detail p{
+	color:#EF476F;
+}
+.testimonial-item .test-nav{
+	background: #EF476F;
+}
+.filter-list li.active{
+	color:#EF476F;
+}
+.quoute{
+	background:#EF476F;
+}
+.quoute-content .quoute-link:hover{
+	color:#EF476F;
+}
+.single-contact-detail .header i{
+	color:#EF476F;
+}

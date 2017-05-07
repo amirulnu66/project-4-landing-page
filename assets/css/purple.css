@@ -1,0 +1,69 @@
+a,a:hover,a:focus{
+	color:#a740ce;
+}
+.color-highlight{
+	color:#a740ce;
+}
+.page-header .border-bottom{
+	border:1px solid #a740ce;
+}
+.page-header .border-bottom:before,
+.page-header .border-bottom:after{
+	background:#a740ce;
+}
+.preload-effect-css div:nth-of-type(2) {
+  border-color: #a740ce;
+}
+.nav-bar-area .navbar-brand h1{
+	color:#a740ce;
+}
+.nav-bar-area .navbar-nav.nav li.current a{
+	color:#a740ce;
+}
+.nav-bar-area.fixed-top .navbar-nav.nav > li > a {
+    color:#a740ce;
+}
+.intro-main .intro-text{
+	border:2px solid #a740ce;
+}
+.intro-main .intro-text:before,
+.intro-main .intro-text:after {
+	background:#a740ce;
+}
+.intro-main .intro-text .person-name:before,
+.intro-main .intro-text .person-name:after{
+	background:#a740ce;
+}
+.about-content .basic-info .info-list li i{
+	color: #a740ce;
+}
+.about-content .skills-info .single-bar .progress{
+	border:1px solid #a740ce;
+}
+.about-content .skills-info .single-bar .progress .progress-bar{
+	background:#a740ce;
+}
+.service-content .single-service i{
+	color:#a740ce;
+}
+.testimonial-content .test-icon{
+	color:#a740ce;
+}
+.single-testimonial .test-author-info .test-author-detail p{
+	color:#a740ce;
+}
+.testimonial-item .test-nav{
+	background: #a740ce;
+}
+.filter-list li.active{
+	color:#a740ce;
+}
+.quoute{
+	background:#a740ce;
+}
+.quoute-content .quoute-link:hover{
+	color:#a740ce;
+}
+.single-contact-detail .header i{
+	color:#a740ce;
+}
